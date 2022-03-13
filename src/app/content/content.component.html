@@ -1,0 +1,11 @@
+<div class="music">
+
+    <form class="form-inline" style="margin-top: 130px;">
+
+        <input class="form-control  form-control-md  w-75" type="text" placeholder="Search for album,artist and track" aria-label="Search" name="search" [(ngModel)]="search_param" style="margin: auto 1px auto auto;">
+
+        <button class="btn btn-success btn-md " type="submit" (click)="Search()"    [disabled]="!search_param" style="margin: auto  auto auto 1px;">Search</button>
+
+    </form>
+
+</div>
